@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/codigoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código do ingresso" />
+
+    <EditText
+        android:id="@+id/valorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor do ingresso" />
+
+    <EditText
+        android:id="@+id/taxaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Taxa de conveniência" />
+
+    <Button
+        android:id="@+id/comprarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comprar" />
+
+</LinearLayout>

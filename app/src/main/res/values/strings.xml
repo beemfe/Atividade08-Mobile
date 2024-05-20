@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Atividade08-Mobile</string>
+        <string name="codigo_textview_label">Código do Ingresso:</string>
+        <string name="valor_final_textview_label">Valor Final:</string>
+</resources>
